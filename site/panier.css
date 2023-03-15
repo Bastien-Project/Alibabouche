@@ -1,0 +1,62 @@
+@font-face{
+    font-family: "Poppins";
+    src: url("police/Poppins-Medium.ttf");
+}
+
+*{
+    font-family: 'Poppins', "Poppins-Medium";
+    user-select: none;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 97%;
+    padding: 6px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 900;
+}
+
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 3%;
+}
+
+#title{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+#main{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+#rowArticle{
+    border: 2px solid black;
+    padding: 1% 10% 1% 20%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    background-color: gray;
+}
+
+#rowArticle a{
+    margin-right: 50%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
