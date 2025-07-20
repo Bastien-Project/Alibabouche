@@ -1,0 +1,354 @@
+@font-face{
+    font-family: "Poppins";
+    src: url("police/Poppins-Medium.ttf");
+}
+
+*{
+    font-family: 'Poppins', "Poppins-Medium";
+    user-select: none;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 97%;
+    padding: 6px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 900;
+}
+
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 3%;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover , header ul li a.active{
+    background: #fff;
+    color: #2b1055;
+}
+
+header ul li img{
+    cursor: pointer;
+}
+
+body{
+    text-decoration: none;
+    background-color: #F5F5F5;
+}
+
+body > h2{
+    display: flex;
+    justify-content: center;
+}
+
+body > h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 150%;
+}
+
+body > h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.slider
+{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#header{
+    /*background-color: #e3e3e9;*/
+    padding: 6px 20px;
+    display: flex;
+    justify-content: center;
+    z-index: 800;
+    margin-top: 2%;
+}
+
+.sousNav{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 1%;
+    text-decoration: none;
+}
+
+.sousNav p{
+    margin-top: -5%;
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    margin-top: 1%;
+    outline: none;
+    font-weight: bold;
+}
+
+footer{
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 19%;
+    margin-top: 5%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottomBas{
+    margin-top: 25%;
+}
+
+.bottom{
+    bottom: 0px;
+}
+
+#reseaux{
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+#reseaux a{
+    text-decoration: none;
+}
+
+#reseaux i{
+    font-size: 150%;
+    margin-left: 8%;
+}
+
+#footer_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#inc{
+    font-size: 10px;
+}
+
+#footer_marques{
+    margin-left: 15%;
+}
+
+#footer_marques p{
+    margin-left: 30%;
+    font-size: 120%;
+}
+
+#footer_marques li{
+    font-size: 12px;
+    list-style: none;
+}
+
+#footer_marques a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer_marques ul{
+    margin-top: -18%;
+}
+
+#footer_marques ul li{
+    cursor: pointer;
+}
+
+
+#footer_condition{
+    margin-left: 15%;
+}
+
+#footer_condition li{
+    font-size: 12px;
+    margin-left: -10%;
+    list-style: none;
+}
+
+#footer_condition ul{
+    margin-top: -3%;
+}
+
+#footer_condition a{
+    color: white;
+    text-decoration: none;
+}
+
+#icon:visited{
+    color: white;
+}
+
+#articleRow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+#articleCase{
+    background-color: rgb(235,238,239);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.articleCasewhite{
+    background-color: white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+#articleCase a{
+    display: flex;
+    justify-content: center;    
+}
+
+#articleCase img{
+    width: 70%;
+}
+
+#articleName{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#articleRowNike{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+#articleCaseNike{
+    background-color: rgb(235,238,239);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+#articleCaseNike img{
+    width: 70%;
+}
+
+#articleNameNike{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.AboutUs{
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+.instagram img{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    top: 700px;
+}
+.twitter img{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    flex-direction: column;
+    top: 650px;
+}
+#insta{
+    text-decoration: none;
+    color:black;
+    display: flex;
+    position: relative;
+    top: 585px;
+    left: 50px;
+}
+#twitter{
+    text-decoration: none;
+    color:black;
+    display: flex;
+    position: relative;
+    top: 510px;
+    left: 50px;
+}
+.secure img{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    flex-direction: column;
+    top: 650px;
+    left: 1485px;
+}
+.secure p{
+    color:black;
+    display: flex;
+    position: relative;
+    top: 468px;
+    left: 1280px;
+}
+.chat img{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    flex-direction: column;
+    top: 705px;
+    left: 1480px;
+}
+.chat p{
+    color:black;
+    display: flex;
+    position: relative;
+    top: 480px;
+    left: 1350px;
+}
+
+#blackF{
+    display: flex;
+    justify-content: center;   
+}
+
+.uil-instagram{
+    color: white;
+}
