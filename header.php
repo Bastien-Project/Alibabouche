@@ -17,6 +17,6 @@
             <li><a href="travel.php">Voyage</a></li>
             <li><a href="art.php">Art</a></li>
             <li><a href="diy.php">Bricolage</a></li>
-            <li><i class="fa-solid fa-basket-shopping"><a href="panier.php"></a></i></li>
+            <li><a href="panier.php"><i class="fa-solid fa-basket-shopping"></i></a></li>
         </ul>
     </header>

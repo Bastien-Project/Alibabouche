@@ -2,6 +2,7 @@
     font-family: system-ui;
 }
 
+/* HEADER */
 header {
     background-color: #011830;
     width: 100%;
@@ -18,7 +19,13 @@ header .logo {
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-left: 3%;
+    margin-left: 5%;
+    padding: 0 10px;
+}
+
+header .logo:hover {
+    color: #fff;
+    border-radius: 20px;
 }
 
 header ul {
@@ -35,15 +42,18 @@ header ul li {
 header ul li a,
 header ul li i {
     text-decoration: none;
-    padding: 6px 15px;
+    padding: 5px 15px;
     color: #E7AD1A;
+}
+
+header ul li a:hover,
+header ul li i:hover {
+    background: #E7AD1A;
+    color: #fff;
     border-radius: 20px;
 }
 
-header ul li a:hover {
-    background: #E7AD1A;
-    color: #011830;
-}
+/* FIN HEADER */
 
 body {
     margin: 0;
@@ -56,105 +66,14 @@ h1 {
     text-align: center;
 }
 
+/* HOME PAGE */
 .homePage {
     text-align: center;
 }
 
-#header {
-    padding: 6px 20px;
-    display: flex;
-    justify-content: center;
-    z-index: 800;
-    margin-top: 2%;
-}
+/* FIN HOME PAGE */
 
-.sousNav {
-    display: flex;
-    flex-direction: column;
-    margin-left: 5%;
-    margin-top: 1%;
-    text-decoration: none;
-}
-
-.sousNav p {
-    margin-top: -5%;
-    text-align: center;
-    color: #011830;
-    font-size: 12px;
-    margin-top: 1%;
-    outline: none;
-    font-weight: bold;
-}
-
-.bottom {
-    bottom: 0px;
-}
-
-#icon:visited {
-    color: #E7AD1A;
-}
-
-#articleRow {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10%;
-}
-
-#articleCase {
-    background-color: #E7AD1A;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.articleCase#E7AD1A {
-    background-color: #E7AD1A;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-}
-
-#articleCase a {
-    display: flex;
-    justify-content: center;
-}
-
-#articleCase img {
-    width: 70%;
-}
-
-#articleName {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#articleRowNike {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10%;
-}
-
-#articleCaseNike {
-    background-color: #E7AD1A;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-}
-
-#articleCaseNike img {
-    width: 70%;
-}
-
-#articleNameNike {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
+/* ABOUT US */
 .AboutUs {
     margin: 20px 10%;
 }
@@ -163,10 +82,14 @@ h1 {
     margin-bottom: 0;
 }
 
-.AboutUs p, .AboutUs ol {
+.AboutUs p,
+.AboutUs ol {
     margin: 0;
 }
 
+/* FIN ABOUT US */
+
+/* FOOTER */
 footer {
     background-color: #011830;
     width: 100%;
@@ -201,4 +124,33 @@ footer {
 
 .social_media i {
     font-size: 30px;
+}
+
+/* FIN FOOTER*/
+
+/* ------------------*/
+#header {
+    padding: 6px 20px;
+    display: flex;
+    justify-content: center;
+    z-index: 800;
+    margin-top: 2%;
+}
+
+.sousNav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 1%;
+    text-decoration: none;
+}
+
+.sousNav p {
+    margin-top: -5%;
+    text-align: center;
+    color: #011830;
+    font-size: 12px;
+    margin-top: 1%;
+    outline: none;
+    font-weight: bold;
 }
