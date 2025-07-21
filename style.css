@@ -1,23 +1,18 @@
-*{
+* {
     font-family: system-ui;
-    user-select: none;
 }
 
-header{
-    background-color: rgba(0, 0, 0, 1);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 97%;
-    padding: 6px 20px;
+header {
+    background-color: #011830;
+    width: 100%;
+    padding: 10px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 900;
 }
 
-header .logo{
-    color: #fff;
+header .logo {
+    color: #E7AD1A;
     font-weight: 700;
     text-decoration: none;
     font-size: 2em;
@@ -28,67 +23,57 @@ header .logo{
 
 header ul {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-right: 5%;
+    gap: 20px;
 }
 
-header ul li{
+header ul li {
     list-style: none;
-    margin-left: 20px;
 }
 
-header ul li a {
+header ul li a, header ul li i {
     text-decoration: none;
     padding: 6px 15px;
-    color: #fff;
+    color: #E7AD1A;
     border-radius: 20px;
 }
 
-header ul li a:hover , header ul li a.active{
-    background: #fff;
-    color: #2b1055;
+header ul li a:hover {
+    background: #E7AD1A;
+    color: #011830;
 }
 
-header ul li img{
-    cursor: pointer;
-}
-
-body{
+body {
+    margin: 0;
     text-decoration: none;
-    background-color: #F5F5F5;
+    background-color: #FFF;
+    min-height: 100vh;
 }
 
-body > h2{
+body>h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+body>h2 {
     display: flex;
     justify-content: center;
 }
 
-body > h3{
+body>h3 {
     display: flex;
     justify-content: center;
     margin-top: 5%;
     font-size: 150%;
 }
 
-body > h1{
-    display: flex;
-    justify-content: center;
-    margin-top: 6%;
+.homePage {
+    text-align: center;
 }
 
-.slider
-{
-    width: 600px;
-    height: 300px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-#header{
-    /*background-color: #e3e3e9;*/
+#header {
     padding: 6px 20px;
     display: flex;
     justify-content: center;
@@ -96,7 +81,7 @@ body > h1{
     margin-top: 2%;
 }
 
-.sousNav{
+.sousNav {
     display: flex;
     flex-direction: column;
     margin-left: 5%;
@@ -104,246 +89,120 @@ body > h1{
     text-decoration: none;
 }
 
-.sousNav p{
+.sousNav p {
     margin-top: -5%;
     text-align: center;
-    color: black;
+    color: #011830;
     font-size: 12px;
     margin-top: 1%;
     outline: none;
     font-weight: bold;
 }
 
-footer{
-    background-color: black;
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    height: 19%;
-    margin-top: 5%;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.bottomBas{
-    margin-top: 25%;
-}
-
-.bottom{
+.bottom {
     bottom: 0px;
 }
 
-#reseaux{
-    margin-top: 5%;
-    margin-left: 35%;
+#icon:visited {
+    color: #E7AD1A;
 }
 
-#reseaux a{
-    text-decoration: none;
-}
-
-#reseaux i{
-    font-size: 150%;
-    margin-left: 8%;
-}
-
-#footer_left{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-#inc{
-    font-size: 10px;
-}
-
-#footer_marques{
-    margin-left: 15%;
-}
-
-#footer_marques p{
-    margin-left: 30%;
-    font-size: 120%;
-}
-
-#footer_marques li{
-    font-size: 12px;
-    list-style: none;
-}
-
-#footer_marques a{
-    color: white;
-    text-decoration: none;
-}
-
-#footer_marques ul{
-    margin-top: -18%;
-}
-
-#footer_marques ul li{
-    cursor: pointer;
-}
-
-
-#footer_condition{
-    margin-left: 15%;
-}
-
-#footer_condition li{
-    font-size: 12px;
-    margin-left: -10%;
-    list-style: none;
-}
-
-#footer_condition ul{
-    margin-top: -3%;
-}
-
-#footer_condition a{
-    color: white;
-    text-decoration: none;
-}
-
-#icon:visited{
-    color: white;
-}
-
-#articleRow{
+#articleRow {
     display: flex;
     justify-content: space-between;
     margin-top: 10%;
 }
 
-#articleCase{
-    background-color: rgb(235,238,239);
+#articleCase {
+    background-color: #E7AD1A;
     width: 30%;
     display: flex;
     justify-content: center;
     cursor: pointer;
 }
 
-.articleCasewhite{
-    background-color: white;
+.articleCase#E7AD1A {
+    background-color: #E7AD1A;
     width: 30%;
     display: flex;
     justify-content: center;
 }
 
-#articleCase a{
+#articleCase a {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
 
-#articleCase img{
+#articleCase img {
     width: 70%;
 }
 
-#articleName{
+#articleName {
     display: flex;
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-#articleRowNike{
+#articleRowNike {
     display: flex;
     justify-content: space-between;
     margin-top: 10%;
 }
 
-#articleCaseNike{
-    background-color: rgb(235,238,239);
+#articleCaseNike {
+    background-color: #E7AD1A;
     width: 30%;
     display: flex;
     justify-content: center;
 }
 
-#articleCaseNike img{
+#articleCaseNike img {
     width: 70%;
 }
 
-#articleNameNike{
+#articleNameNike {
     display: flex;
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.AboutUs{
-    position: relative;
+.AboutUs {
     text-align: center;
-    top: 100px;
-}
-.instagram img{
-    height: 45px;
-    width: 45px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    position: absolute;
-    top: 700px;
-}
-.twitter img{
-    height: 45px;
-    width: 45px;
-    display: flex;
-    flex-direction: column;
-    top: 650px;
-}
-#insta{
-    text-decoration: none;
-    color:black;
-    display: flex;
-    position: relative;
-    top: 585px;
-    left: 50px;
-}
-#twitter{
-    text-decoration: none;
-    color:black;
-    display: flex;
-    position: relative;
-    top: 510px;
-    left: 50px;
-}
-.secure img{
-    height: 45px;
-    width: 45px;
-    display: flex;
-    flex-direction: column;
-    top: 650px;
-    left: 1485px;
-}
-.secure p{
-    color:black;
-    display: flex;
-    position: relative;
-    top: 468px;
-    left: 1280px;
-}
-.chat img{
-    height: 45px;
-    width: 45px;
-    display: flex;
-    flex-direction: column;
-    top: 705px;
-    left: 1480px;
-}
-.chat p{
-    color:black;
-    display: flex;
-    position: relative;
-    top: 480px;
-    left: 1350px;
+    margin: 20px 10%;
 }
 
-#blackF{
+footer {
+    background-color: #011830;
+    width: 100%;
+    color: #E7AD1A;
     display: flex;
-    justify-content: center;   
+    justify-content: space-around;
 }
 
-.uil-instagram{
-    color: white;
+.footer_brand li, .footer_notices li {
+    list-style: none;
+}
+
+.footer_brand a, .footer_notices a {
+    color: #E7AD1A;
+    text-decoration: none;
+}
+
+.footer_social_and_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social_media {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social_media i {
+    font-size: 30px;
 }

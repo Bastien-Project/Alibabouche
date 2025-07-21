@@ -1,10 +1,8 @@
 <?php include 'header.php'; ?>
 
-<body>
-    <h1>Alibabouche - Le souk en ligne</h1>
-    <div id="blackF">
-        <img src="images/alibabouche.png" alt="Logo Alibabouche" width="auto" height="500vh">
-    </div>
-</body>
+<h1>Alibabouche - Le souk en ligne</h1>
+<div class="homePage">
+    <img src="images/alibabouche.png" alt="Logo Alibabouche" width="auto" height="500vh">
+</div>
 
 <?php include 'footer.php'; ?>

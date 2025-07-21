@@ -1,14 +1,14 @@
-<footer class="bottomBas">
-        <div id="footer_marques">
+<footer>
+        <div class="footer_brand">
             <p><strong>Marques:</strong></p>
             <ul>
-                <li><a href="nike.html" target="_blank">Nike</a></li>
-                <li><a href="adidas.html" target="_blank">Adidas</a></li>
-                <li><a href="jordans.html" target="_blank">Jordans</a></li>
-                <li><a href="babouche.html" target="_blank">Babouche</a></li>
+                <li><a href="nike.php" target="_blank">Nike</a></li>
+                <li><a href="adidas.php" target="_blank">Adidas</a></li>
+                <li><a href="jordans.php" target="_blank">Jordans</a></li>
+                <li><a href="babouche.php" target="_blank">Babouche</a></li>
             </ul>
         </div>
-        <div id="footer_condition">
+        <div class="footer_notices">
             <p><strong>Informations légales:</strong></p>
             <ul>
                 <li>Conditions générales et politique de conficdentialite</li>
@@ -18,12 +18,13 @@
 
             </ul>
         </div>
-        <div id="footer_left">
-            <div id="reseaux">
-                <a id="icon" href="https://www.instagram.com/alibabouche_officiel/" target="_blank"><i class="uil uil-instagram"></i></a>
-                <a id="icon" href="https://twitter.com/AliBABOUCHE_Off" target="_blank"><i class="uil uil-twitter-alt"></i></a>
+        <div class="footer_social_and_right">
+            <div class="social_media">
+                <i class="fa-brands fa-instagram"><a href="https://instagram.com/alibabouche_officiel" target="_blank"></a></i>
+                <i class="fa-brands fa-x-twitter"><a href="https://twitter.com/AliBABOUCHE_Off" target="_blank"></a></i>
             </div>
-            <p id="inc">© 2021 Alibabouche, Inc. Tous droits réservés</p>
+            <p>© <?php echo date("Y"); ?> Alibabouche. Tous droits réservés</p>
         </div>
     </footer>
+</body>
 </html>
