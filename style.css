@@ -1,10 +1,5 @@
-@font-face{
-    font-family: "Poppins";
-    src: url("police/Poppins-Medium.ttf");
-}
-
 *{
-    font-family: 'Poppins', "Poppins-Medium";
+    font-family: system-ui;
     user-select: none;
 }
 
