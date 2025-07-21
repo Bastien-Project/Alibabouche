@@ -22,7 +22,7 @@
         <p>Zk 2k boost</p>
     </a>
 </div>
-<h2>Nos paires Adidas</h1>
+<h2>Nos paires Adidas</h2>
     <div class="slider bas" id="main-slider"><!-- outermost container element -->
         <div class="slider-wrapper"><!-- innermost wrapper element -->
             <img src="images/adidas/OZWEEGO/Chaussure_OZWEEGO_Rouge_GX3652_01_standard.jpg" alt="First" class="slide" width="100px" height="100px" /><!-- slides -->
