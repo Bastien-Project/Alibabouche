@@ -32,7 +32,8 @@ header ul li {
     list-style: none;
 }
 
-header ul li a, header ul li i {
+header ul li a,
+header ul li i {
     text-decoration: none;
     padding: 6px 15px;
     color: #E7AD1A;
@@ -51,22 +52,8 @@ body {
     min-height: 100vh;
 }
 
-body>h1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 6%;
-}
-
-body>h2 {
-    display: flex;
-    justify-content: center;
-}
-
-body>h3 {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    font-size: 150%;
+h1 {
+    text-align: center;
 }
 
 .homePage {
@@ -169,8 +156,15 @@ body>h3 {
 }
 
 .AboutUs {
-    text-align: center;
     margin: 20px 10%;
+}
+
+.AboutUs h2 {
+    margin-bottom: 0;
+}
+
+.AboutUs p, .AboutUs ol {
+    margin: 0;
 }
 
 footer {
@@ -181,11 +175,13 @@ footer {
     justify-content: space-around;
 }
 
-.footer_brand li, .footer_notices li {
+.footer_brand li,
+.footer_notices li {
     list-style: none;
 }
 
-.footer_brand a, .footer_notices a {
+.footer_brand a,
+.footer_notices a {
     color: #E7AD1A;
     text-decoration: none;
 }

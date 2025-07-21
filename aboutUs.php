@@ -1,18 +1,28 @@
 <?php include 'header.php'; ?>
 
 <div class="AboutUs">
-    <h1>Qui sommes nous?</h1>
-    <p>Nous croyons en un monde où vous avez la liberté totale d'être vous et sans le moindre jugement. D’expérimenter.
-        D’avoir le courage la force de prendre la vie comme une aventure extraordinaire. Nous faisons tout pour que chacun
-        ait une chance égale de découvrir toutes les choses incroyables dont il est capable. Et ce, peu importe qui il est, d'où il vient ou quel look il veut avoir.
-        Nous existons pour vous donner la force devenir la personne que vous voulez être.</p>
-    <h1>Le choix pour tous</h1>
-    <p>Notre audience (c’est à dire vous) est merveilleusement unique. Et nous faisons tout notre possible pour vous aider à trouver votre taille, grâce à nos
-        marques disponibles dans plus de 30 tailles - et nous nous engageons à fournir toutes ces tailles au même prix. Ainsi, vous
-        pouvez être sûr que nous avons le parfait vêtement pour vous. Nous sommes également fiers de nous associer à GLAAD, l'une des plus grandes voix
-        de l'activisme LGBTQ, via une collection non genrée qui a pour but de participer au sentiment d’acceptation.</p>
-    <h1>Vous ne trouvez pas votre bonheur</h1>
-    <p>Dans le cas où la paires de vos rêves n'est pas disponibles sur le site n'hesitez pas à nous contacter via les réseaux sociaux à fin qu'on comble tout vos désirs !</p>
+    <h2>Qui sommes-nous ?</h2>
+    <p>
+        Nous sommes un collectif d'une seule personne engagée qui œuvre pour la mise en lumière des petits commerces et créateurs indépendants.
+        Notre mission : offrir une vitrine équitable à celles et ceux qui lancent des marques audacieuses, innovantes et profondément bienveillantes.
+        <br> Nous croyons qu’il n’est pas nécessaire d’être une multinationale pour changer le monde. Parfois une bonne idée, un peu de cœur et une babouche magique suffisent.
+        Peu importe d’où tu viens, qui tu es ou ce que tu fais : tu es le bienvenu.
+    </p>
+
+    <h2>Notre diversité</h2>
+    <p>
+        On ne vend pas de tout et de rien pas cher comme Temu, on vend de la qualité. Chaque produit présent sur notre site a été sélectionné avec attention à la main (et au travail d’un enfant chinois non payé). Mais rassure-toi il va passablemnt bien dans la cave. 
+        Et de toute façon si il meurt il va dans la congel et on le remplace. Un chinois ça coute plus cher qu'un noir à l'achat mais c'est plus efficace
+        <br>Artisanat local, idées révolutionnaires, créations éthiques, produits utiles, et indispensables : notre seul critère, c’est que ça vienne d’une vraie personne, avec une vraie envie de partager quelque chose mais surtout une innonvation qui lui est propre.
+    </p>
+
+
+    <h2>Vous ne trouvez pas votre bonheur ?</h2>
+    <p>Si malgré notre choix très riche et diversifié, il s'avère que vous ne trouviez pas exactement ce que vous cherchez, deux choix s'offrent à vous :</p>
+    <ol>
+        <li> Créer ce que vous ne trouvez pas, et nous serions ravis de vous soutenir, et ensuite de vous mettre en avant sur notre site.</li>
+        <li> Ou soyez un énorme étron et allez sur Amazon, AliExpress ou pire Temu, Shein et autres merdes chinoises.</li>
+    </ol>
 </div>
 
 <?php include 'footer.php'; ?>

@@ -12,9 +12,11 @@
     <header>
         <a href="index.php" class="logo">Alibabouche</a>
         <ul>
-            <li><a href="nike.php">Nike</a></li>
-            <li><a href="adidas.php">Adidas</a></li>
-            <li><a href="aboutUs.php">About Us</a></li>
+            <li><a href="drink.php">Boissons</a></li>
+            <li><a href="house.php">Maison et jardin</a></li>
+            <li><a href="travel.php">Voyage</a></li>
+            <li><a href="art.php">Art</a></li>
+            <li><a href="diy.php">Bricolage</a></li>
             <li><i class="fa-solid fa-basket-shopping"><a href="panier.php"></a></i></li>
         </ul>
     </header>

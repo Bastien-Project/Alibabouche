@@ -2,10 +2,11 @@
         <div class="footer_brand">
             <p><strong>Marques:</strong></p>
             <ul>
-                <li><a href="nike.php" target="_blank">Nike</a></li>
-                <li><a href="adidas.php" target="_blank">Adidas</a></li>
-                <li><a href="jordans.php" target="_blank">Jordans</a></li>
-                <li><a href="babouche.php" target="_blank">Babouche</a></li>
+            <li><a href="drink.php">Boissons</a></li>
+            <li><a href="house.php">Maison et jardin</a></li>
+            <li><a href="travel.php">Voyage</a></li>
+            <li><a href="art.php">Art</a></li>
+            <li><a href="diy.php">Bricolage</a></li>
             </ul>
         </div>
         <div class="footer_notices">
@@ -15,7 +16,7 @@
                 <li>Chaine d'approvisionnement</li>
                 <li>Politique sur les Cookies et la Confidentialite</li>
                 <li>Paramètres des Cookies</li>
-
+                <li><a href="aboutus.php">Qui sommes nous ?</a></li>
             </ul>
         </div>
         <div class="footer_social_and_right">
