@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS produits (
     id INT AUTO_INCREMENT PRIMARY KEY,
     categorie VARCHAR(30) NOT NULL,
     image VARCHAR(255),
-    prix DECIMAL(10,2) NOT NULL,
+    prix DECIMAL(12,2) NOT NULL,
     titre VARCHAR(255) NOT NULL,
     description TEXT,
     caracteristique TEXT,
