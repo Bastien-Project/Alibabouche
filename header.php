@@ -12,11 +12,12 @@
     <header>
         <a href="index.php" class="logo">Alibabouche</a>
         <ul>
-            <li><a href="drink.php">Boissons</a></li>
-            <li><a href="house.php">Maison et jardin</a></li>
-            <li><a href="travel.php">Voyage</a></li>
-            <li><a href="art.php">Art</a></li>
-            <li><a href="diy.php">Bricolage</a></li>
+            <li><a href="produits.php?categorie=Boissons">Boissons</a></li>
+            <li><a href="produits.php?categorie=Maison%20et%20Jardin">Maison et jardin</a></li>
+            <li><a href="produits.php?categorie=Voyage">Voyage</a></li>
+            <li><a href="produits.php?categorie=Art">Art</a></li>
+            <li><a href="produits.php?categorie=Bricolage">Bricolage</a></li>
             <li><a href="panier.php"><i class="fa-solid fa-basket-shopping"></i></a></li>
+
         </ul>
     </header>
