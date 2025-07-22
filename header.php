@@ -12,7 +12,7 @@
     <header>
         <a href="index.php" class="logo">Alibabouche</a>
         <ul>
-            <li><a href="produits.php?categorie=Boissons">Boissons</a></li>
+            <li><a href="produits.php?categorie=Boissons%20et%20Alimentation">Boissons et Alimentation</a></li>
             <li><a href="produits.php?categorie=Maison%20et%20Jardin">Maison et jardin</a></li>
             <li><a href="produits.php?categorie=Voyage">Voyage</a></li>
             <li><a href="produits.php?categorie=Art">Art</a></li>

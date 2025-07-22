@@ -14,7 +14,7 @@ try {
 
 // Catégories prédéfinies
 $categories = [
-    "Boissons" => "Boissons",
+    "Boissons et Alimentation" => "Boissons_et_Alimentation",
     "Maison et Jardin" => "Maison_et_Jardin",
     "Art" => "Art",
     "Bricolage" => "Bricolage",

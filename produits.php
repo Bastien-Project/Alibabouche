@@ -5,7 +5,7 @@ $pdo = new PDO("mysql:host=localhost;dbname=alibabouche;charset=utf8mb4", "root"
 
 // Catégories autorisées
 $categories = [
-    "Boissons",
+    "Boissons et Alimentation",
     "Maison et Jardin",
     "Art",
     "Bricolage",
@@ -33,6 +33,9 @@ $produits = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <h2>Nos <?= htmlspecialchars($categorie) ?></h2>
     <p>Découvrez notre sélection de produits dans la catégorie "<?= htmlspecialchars($categorie) ?>".</p>
 </div>
+<? // pour boissons et Alimentation : Découvrez notre sélection de nourriture et de boissons artisanales, locales et éthiques. 
+    // Chaque bouchée et gorgée est une célébration du savoir-faire et de la passion des producteurs.
+    ?>
 
 <?php foreach ($produits as $p): ?>
     <div class="product">
