@@ -13,5 +13,5 @@ CREATE TABLE IF NOT EXISTS produits (
     titre VARCHAR(255) NOT NULL,
     description TEXT,
     caracteristique TEXT,
-    note TINYINT UNSIGNED
+    note DECIMAL(2,1) UNSIGNED
 );
